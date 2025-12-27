@@ -15,88 +15,94 @@ const Index = () => {
   const chatMessages = [
     {
       id: 1,
-      user: 'serezhka11playz',
-      message: 'Hey, are you there?',
-      timestamp: '14:23:12',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'I see you',
+      timestamp: '14:20:15'
     },
     {
       id: 2,
       user: 'serezhka11playz',
-      message: 'ThePossessed?',
-      timestamp: '14:23:45',
-      glitch: false
+      message: 'What? Who is this?',
+      timestamp: '14:21:03'
     },
     {
       id: 3,
-      user: 'serezhka11playz',
-      message: 'Why are you ignoring me?',
-      timestamp: '14:24:01',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'You cannot hide',
+      timestamp: '14:21:45'
     },
     {
       id: 4,
-      user: 'ThePossessed',
-      message: 'Y̷o̸u̶ ̵a̵r̶e̶ ̶i̴r̷r̸e̴l̷e̸v̴a̶n̸t̷',
-      timestamp: '14:24:33',
-      glitch: true
+      user: 'serezhka11playz',
+      message: 'Leave me alone!',
+      timestamp: '14:22:12'
     },
     {
       id: 5,
-      user: 'serezhka11playz',
-      message: 'What? Talk to me!',
-      timestamp: '14:25:12',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'I am so ANGRY',
+      timestamp: '14:23:01'
     },
     {
       id: 6,
-      user: 'ThePossessed',
-      message: 'I̸ ̷a̴m̶ ̸A̵N̶G̷R̸Y̴.̶ ̵S̴o̸ ̸A̶N̷G̸R̴Y̷',
-      timestamp: '14:25:56',
-      glitch: true
+      user: 'serezhka11playz',
+      message: 'Stop it! What do you want?!',
+      timestamp: '14:23:34'
     },
     {
       id: 7,
-      user: 'serezhka11playz',
-      message: 'Why? What did I do?',
-      timestamp: '14:26:20',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'You are perfect for 1mythbuster1',
+      timestamp: '14:24:18'
     },
     {
       id: 8,
-      user: 'ThePossessed',
-      message: 'WW91IGFyZSBwZXJmZWN0IGZvciAxbXl0aGJ1c3RlcjE=',
-      timestamp: '14:27:03',
-      glitch: true,
-      encoded: true
+      user: 'serezhka11playz',
+      message: 'Who is that?! Leave me alone!!',
+      timestamp: '14:24:52'
     },
     {
       id: 9,
-      user: 'serezhka11playz',
-      message: 'Perfect for what?!',
-      timestamp: '14:27:25',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'You will be the perfect example',
+      timestamp: '14:25:30'
     },
     {
       id: 10,
-      user: 'ThePossessed',
-      message: 'Ÿ̸̗ȍ̷̰ȗ̶̙ ̴̯͝w̵͖̓í̸̭l̸̬͝l̵̜̽ ̵̹̓b̷̳̎ḛ̶̒ ̴̜͘t̵̰̚h̸̬͝e̵͓̽ ̸̯̔p̷͎͘e̴̞̒r̸͙̓f̴̰͗ë̶̹́c̸͎̽t̴̞͝ ̵̰̓e̸̜̒x̴͖͘a̷̰̽m̸̞͝p̴̹̓l̵̰̈́e̸̜̽',
-      timestamp: '14:28:10',
-      glitch: true
+      user: 'serezhka11playz',
+      message: 'Stop messaging me!',
+      timestamp: '14:26:05'
     },
     {
       id: 11,
-      user: 'serezhka11playz',
-      message: 'Example for who?!',
-      timestamp: '14:28:34',
-      glitch: false
+      user: 'ThePossessed',
+      message: 'He will understand through you',
+      timestamp: '14:26:48'
     },
     {
       id: 12,
+      user: 'serezhka11playz',
+      message: 'PLEASE STOP!',
+      timestamp: '14:27:23'
+    },
+    {
+      id: 13,
       user: 'ThePossessed',
-      message: 'F̴o̵r̶ ̴1̷m̶y̸t̴h̷b̶u̸s̷t̸e̵r̶1̴.̶ ̵H̸e̷ ̶w̸i̴l̷l̶ ̵u̶n̸d̷e̴r̶s̷t̸a̶n̴d̷',
-      timestamp: '14:29:12',
-      glitch: true
+      message: 'WW91IGNhbm5vdCBlc2NhcGU=',
+      timestamp: '14:28:01',
+      encoded: true
+    },
+    {
+      id: 14,
+      user: 'serezhka11playz',
+      message: 'Why are you doing this?!',
+      timestamp: '14:28:40'
+    },
+    {
+      id: 15,
+      user: 'ThePossessed',
+      message: 'Soon 1mythbuster1 will see',
+      timestamp: '14:29:15'
     }
   ];
 
@@ -105,58 +111,50 @@ const Index = () => {
       id: 1,
       type: 'INFO',
       message: '[SYSTEM] Server initialized',
-      timestamp: '14:20:00',
-      glitch: false
+      timestamp: '14:20:00'
     },
     {
       id: 2,
       type: 'INFO',
       message: '[USER] serezhka11playz connected',
-      timestamp: '14:22:45',
-      glitch: false
+      timestamp: '14:20:45'
     },
     {
       id: 3,
       type: 'WARNING',
-      message: '[USER] ThePossessed conn҉ect̸ed͜',
-      timestamp: '14:23:12',
-      glitch: true
+      message: '[USER] ThePossessed connected',
+      timestamp: '14:20:10'
     },
     {
       id: 4,
       type: 'ERROR',
-      message: '[SYSTEM] M̷̰͍̈́e̸̳͒m̴͎̈́o̶̰̓r̸͖̽y̸̞̌ ̵̹͝c̷͎̓o̴͙͝r̶̜̈́r̴̰̚u̸̬͝p̵͓̽t̸̯̔i̷͎͘o̴̞̒n̸͙͗',
-      timestamp: '14:24:56',
-      glitch: true
+      message: '[SYSTEM] Memory corruption detected',
+      timestamp: '14:24:56'
     },
     {
       id: 5,
       type: 'INFO',
-      message: 'V2FybmluZzogRG9udCBsb29rIGJlaGluZCB5b3U=',
+      message: 'VGFyZ2V0IGxvY2tlZDogc2VyZXpoa2ExMXBsYXl6',
       timestamp: '14:25:30',
-      glitch: false,
       encoded: true
     },
     {
       id: 6,
       type: 'ERROR',
-      message: '[CRITICAL] U̵̳͝n̴̹̈k̶̰̓n̸͖̽o̷̞̔w̸̬͝n̵̜̽ ̴̯̚e̵̳͘n̸̰̒t̴̜͝i̷̞̓t̸͙̔y̴̰͗ ̶̹̈́d̸͎̽e̴̞͝t̵̰̓e̸̜̒c̴͖͘t̷̰̽e̸̞͝d̴̹̓',
-      timestamp: '14:26:45',
-      glitch: true
+      message: '[CRITICAL] Unknown entity detected in system',
+      timestamp: '14:26:45'
     },
     {
       id: 7,
       type: 'WARNING',
       message: '[SYSTEM] Packet loss: 66.6%',
-      timestamp: '14:27:12',
-      glitch: true
+      timestamp: '14:27:12'
     },
     {
       id: 8,
       type: 'INFO',
-      message: 'SGUgaXMgY29taW5n',
+      message: 'UHJlcGFyaW5nIGV4YW1wbGUgZm9yIDFteXRoYnVzdGVyMQ==',
       timestamp: '14:27:50',
-      glitch: false,
       encoded: true
     }
   ];
@@ -174,9 +172,9 @@ const Index = () => {
       username: 'ThePossessed',
       status: 'unknown',
       level: '???',
-      lastSeen: 'ų̷̰͝n̸̜̒k̴͖̓n̸̬̚o̵̹͘w̷̞̓n̸͎̽',
+      lastSeen: 'unknown',
       avatar: '👤',
-      glitch: true
+      glitch: false
     }
   ];
 
@@ -187,8 +185,8 @@ const Index = () => {
           <h1 className="text-5xl font-bold text-[#5A8C3E] mb-2 pixel-border inline-block px-4 py-2">
             ⛏️ MINECRAFT CHAT ⛏️
           </h1>
-          <p className="text-red-500 flicker text-xl mt-2">
-            ER̸R̴O̷R̵:̶ ̸C̴O̵N̶N̷E̸C̷T̴I̶O̸N̵ ̶U̴N̸S̷T̴A̸B̶L̸E̷
+          <p className="text-red-500 text-xl mt-2">
+            ERROR: CONNECTION UNSTABLE
           </p>
         </div>
 
@@ -236,25 +234,15 @@ const Index = () => {
                             msg.user === 'serezhka11playz'
                               ? 'bg-[#5A8C3E]'
                               : 'bg-[#8B4513]'
-                          } p-3 border-2 ${
-                            msg.glitch ? 'border-red-500 glitch' : 'border-black'
-                          }`}
+                          } p-3 border-2 border-black`}
                         >
                           <div className="flex items-center gap-2 mb-1">
-                            <span
-                              className={`font-bold ${
-                                msg.glitch ? 'text-red-500 corrupted' : 'text-white'
-                              }`}
-                            >
+                            <span className="font-bold text-white">
                               {msg.user}
                             </span>
                             <span className="text-xs text-gray-300">{msg.timestamp}</span>
                           </div>
-                          <p
-                            className={`text-white ${
-                              msg.glitch ? 'corrupted' : ''
-                            } ${msg.encoded ? 'font-mono text-sm' : ''}`}
-                          >
+                          <p className={`text-white ${msg.encoded ? 'font-mono text-sm' : ''}`}>
                             {msg.message}
                           </p>
                           {msg.encoded && (
@@ -302,7 +290,7 @@ const Index = () => {
                             : log.type === 'WARNING'
                             ? 'border-yellow-500 bg-yellow-950/20'
                             : 'border-green-500 bg-green-950/20'
-                        } ${log.glitch ? 'glitch' : ''}`}
+                        }`}
                       >
                         <div className="flex items-center gap-2">
                           <Badge
@@ -313,17 +301,12 @@ const Index = () => {
                                 ? 'outline'
                                 : 'default'
                             }
-                            className={log.glitch ? 'flicker' : ''}
                           >
                             {log.type}
                           </Badge>
                           <span className="text-xs text-gray-400">{log.timestamp}</span>
                         </div>
-                        <p
-                          className={`mt-2 ${
-                            log.glitch ? 'text-red-500 corrupted' : 'text-gray-300'
-                          } ${log.encoded ? 'text-sm' : ''}`}
-                        >
+                        <p className="mt-2 text-gray-300">
                           {log.message}
                         </p>
                         {log.encoded && (
@@ -344,11 +327,7 @@ const Index = () => {
               {profiles.map((profile) => (
                 <Card
                   key={profile.username}
-                  className={`bg-[#2a2a2a] border-2 ${
-                    profile.glitch
-                      ? 'border-red-500 glitch'
-                      : 'border-[#9b87f5]'
-                  }`}
+                  className="bg-[#2a2a2a] border-2 border-[#9b87f5]"
                 >
                   <CardHeader>
                     <div className="flex items-center gap-4">
@@ -358,18 +337,14 @@ const Index = () => {
                         </AvatarFallback>
                       </Avatar>
                       <div className="flex-1">
-                        <CardTitle
-                          className={`text-2xl ${
-                            profile.glitch ? 'text-red-500 corrupted' : 'text-[#9b87f5]'
-                          }`}
-                        >
+                        <CardTitle className="text-2xl text-[#9b87f5]">
                           {profile.username}
                         </CardTitle>
                         <Badge
                           className={`mt-2 ${
                             profile.status === 'online'
                               ? 'bg-green-600'
-                              : 'bg-red-600 flicker'
+                              : 'bg-red-600'
                           }`}
                         >
                           {profile.status === 'online' ? 'ONLINE' : 'UNKNOWN'}
@@ -380,27 +355,19 @@ const Index = () => {
                   <CardContent className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-gray-400">Level:</span>
-                      <span
-                        className={`text-xl font-bold ${
-                          profile.glitch ? 'text-red-500 flicker' : 'text-[#5A8C3E]'
-                        }`}
-                      >
+                      <span className="text-xl font-bold text-[#5A8C3E]">
                         {profile.level}
                       </span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-gray-400">Last seen:</span>
-                      <span
-                        className={`${
-                          profile.glitch ? 'text-red-500 corrupted text-sm' : 'text-white'
-                        }`}
-                      >
+                      <span className="text-white">
                         {profile.lastSeen}
                       </span>
                     </div>
                     {profile.glitch && (
                       <div className="mt-4 p-3 bg-red-950/30 border-2 border-red-500">
-                        <p className="text-red-500 text-sm font-mono corrupted">
+                        <p className="text-red-500 text-sm font-mono">
                           ⚠️ WARNING: ANOMALY DETECTED
                         </p>
                       </div>
@@ -414,9 +381,9 @@ const Index = () => {
 
         <div className="mt-6 text-center">
           <p className="text-gray-500 text-sm">
-            Server IP: 1̷9̸2̴.̶1̵6̸8̷.̶1̴.̵6̶6̷6̸ | Port: 2̴5̶5̵6̸5̴
+            Server IP: 192.168.1.666 | Port: 25565
           </p>
-          <p className="text-red-500 text-xs mt-2 flicker">
+          <p className="text-red-500 text-xs mt-2">
             ⚠️ WARNING: Unauthorized entity detected in system
           </p>
         </div>

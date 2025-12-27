@@ -16,60 +16,87 @@ const Index = () => {
     {
       id: 1,
       user: 'serezhka11playz',
-      message: 'Привет, ты тут?',
+      message: 'Hey, are you there?',
       timestamp: '14:23:12',
       glitch: false
     },
     {
       id: 2,
-      user: 'ThePossessed',
-      message: 'Д̷а̸.̶ ̵Я̵ ̶з̶д̵е̶с̴ь̴',
+      user: 'serezhka11playz',
+      message: 'ThePossessed?',
       timestamp: '14:23:45',
-      glitch: true
+      glitch: false
     },
     {
       id: 3,
       user: 'serezhka11playz',
-      message: 'Что случилось с твоим ником?',
+      message: 'Why are you ignoring me?',
       timestamp: '14:24:01',
       glitch: false
     },
     {
       id: 4,
       user: 'ThePossessed',
-      message: 'VGhpcyBpcyBub3QgYSBnYW1l',
+      message: 'Y̷o̸u̶ ̵a̵r̶e̶ ̶i̴r̷r̸e̴l̷e̸v̴a̶n̸t̷',
       timestamp: '14:24:33',
-      glitch: true,
-      encoded: true
+      glitch: true
     },
     {
       id: 5,
       user: 'serezhka11playz',
-      message: 'Ты странно пишешь...',
+      message: 'What? Talk to me!',
       timestamp: '14:25:12',
       glitch: false
     },
     {
       id: 6,
       user: 'ThePossessed',
-      message: '̸̗̈Я̷̰̏ ̶̙̑в̴̯͝и̵͖̓ӝ̸̭́у̸̬͝ ̵̜̽т̵̹̓е̷̳̎б̶̰̒я̴̜͘',
+      message: 'I̸ ̷a̴m̶ ̸A̵N̶G̷R̸Y̴.̶ ̵S̴o̸ ̸A̶N̷G̸R̴Y̷',
       timestamp: '14:25:56',
       glitch: true
     },
     {
       id: 7,
       user: 'serezhka11playz',
-      message: 'Что?! Прекрати!',
+      message: 'Why? What did I do?',
       timestamp: '14:26:20',
       glitch: false
     },
     {
       id: 8,
       user: 'ThePossessed',
-      message: 'SGVscCBtZQ==',
+      message: 'WW91IGFyZSBwZXJmZWN0IGZvciAxbXl0aGJ1c3RlcjE=',
       timestamp: '14:27:03',
       glitch: true,
       encoded: true
+    },
+    {
+      id: 9,
+      user: 'serezhka11playz',
+      message: 'Perfect for what?!',
+      timestamp: '14:27:25',
+      glitch: false
+    },
+    {
+      id: 10,
+      user: 'ThePossessed',
+      message: 'Ÿ̸̗ȍ̷̰ȗ̶̙ ̴̯͝w̵͖̓í̸̭l̸̬͝l̵̜̽ ̵̹̓b̷̳̎ḛ̶̒ ̴̜͘t̵̰̚h̸̬͝e̵͓̽ ̸̯̔p̷͎͘e̴̞̒r̸͙̓f̴̰͗ë̶̹́c̸͎̽t̴̞͝ ̵̰̓e̸̜̒x̴͖͘a̷̰̽m̸̞͝p̴̹̓l̵̰̈́e̸̜̽',
+      timestamp: '14:28:10',
+      glitch: true
+    },
+    {
+      id: 11,
+      user: 'serezhka11playz',
+      message: 'Example for who?!',
+      timestamp: '14:28:34',
+      glitch: false
+    },
+    {
+      id: 12,
+      user: 'ThePossessed',
+      message: 'F̴o̵r̶ ̴1̷m̶y̸t̴h̷b̶u̸s̷t̸e̵r̶1̴.̶ ̵H̸e̷ ̶w̸i̴l̷l̶ ̵u̶n̸d̷e̴r̶s̷t̸a̶n̴d̷',
+      timestamp: '14:29:12',
+      glitch: true
     }
   ];
 
@@ -139,7 +166,7 @@ const Index = () => {
       username: 'serezhka11playz',
       status: 'online',
       level: 12,
-      lastSeen: 'сейчас онлайн',
+      lastSeen: 'online now',
       avatar: '🧑',
       glitch: false
     },
@@ -147,7 +174,7 @@ const Index = () => {
       username: 'ThePossessed',
       status: 'unknown',
       level: '???',
-      lastSeen: 'н̷̰͝е̸̜̒и̴͖̓з̸̬̚в̵̹͘е̷̞̓с̸͎̽т̴̰̈́н̶̜͝о̸̰̔',
+      lastSeen: 'ų̷̰͝n̸̜̒k̴͖̓n̸̬̚o̵̹͘w̷̞̓n̸͎̽',
       avatar: '👤',
       glitch: true
     }
@@ -171,19 +198,19 @@ const Index = () => {
               value="chat" 
               className="data-[state=active]:bg-[#5A8C3E] data-[state=active]:text-white text-xl"
             >
-              💬 ЧАТЫ
+              💬 CHATS
             </TabsTrigger>
             <TabsTrigger 
               value="logs" 
               className="data-[state=active]:bg-[#8B4513] data-[state=active]:text-white text-xl"
             >
-              📋 ЛОГИ
+              📋 LOGS
             </TabsTrigger>
             <TabsTrigger 
               value="profiles" 
               className="data-[state=active]:bg-[#9b87f5] data-[state=active]:text-white text-xl"
             >
-              👤 ПРОФИЛИ
+              👤 PROFILES
             </TabsTrigger>
           </TabsList>
 
@@ -191,7 +218,7 @@ const Index = () => {
             <Card className="bg-[#2a2a2a] border-2 border-[#5A8C3E]">
               <CardHeader>
                 <CardTitle className="text-2xl text-[#5A8C3E]">
-                  Чат с ThePossessed
+                  Chat with ThePossessed
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -245,7 +272,7 @@ const Index = () => {
                   <Input
                     value={messageInput}
                     onChange={(e) => setMessageInput(e.target.value)}
-                    placeholder="Введите сообщение..."
+                    placeholder="Type a message..."
                     className="bg-[#1a1a1a] border-2 border-[#5A8C3E] text-white text-lg"
                   />
                   <Button className="bg-[#5A8C3E] hover:bg-[#4a7c2e] border-2 border-black px-6">
@@ -260,7 +287,7 @@ const Index = () => {
             <Card className="bg-[#2a2a2a] border-2 border-[#8B4513]">
               <CardHeader>
                 <CardTitle className="text-2xl text-[#8B4513]">
-                  Системные логи
+                  System Logs
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -345,14 +372,14 @@ const Index = () => {
                               : 'bg-red-600 flicker'
                           }`}
                         >
-                          {profile.status === 'online' ? 'ОНЛАЙН' : 'НЕИЗВЕСТНО'}
+                          {profile.status === 'online' ? 'ONLINE' : 'UNKNOWN'}
                         </Badge>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-400">Уровень:</span>
+                      <span className="text-gray-400">Level:</span>
                       <span
                         className={`text-xl font-bold ${
                           profile.glitch ? 'text-red-500 flicker' : 'text-[#5A8C3E]'
@@ -362,7 +389,7 @@ const Index = () => {
                       </span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-gray-400">Был в сети:</span>
+                      <span className="text-gray-400">Last seen:</span>
                       <span
                         className={`${
                           profile.glitch ? 'text-red-500 corrupted text-sm' : 'text-white'
@@ -374,7 +401,7 @@ const Index = () => {
                     {profile.glitch && (
                       <div className="mt-4 p-3 bg-red-950/30 border-2 border-red-500">
                         <p className="text-red-500 text-sm font-mono corrupted">
-                          ⚠️ ПРЕДУПРЕЖДЕНИЕ: ОБНАРУЖЕНА АНОМАЛИЯ
+                          ⚠️ WARNING: ANOMALY DETECTED
                         </p>
                       </div>
                     )}
